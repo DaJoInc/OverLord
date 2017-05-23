@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="OverLord:war exploded">
-    <output-path>$PROJECT_DIR$/target/Spring4Hiberante4Integration</output-path>
+  <artifact type="exploded-war" build-on-make="true" name="OverLord:war exploded">
+    <output-path>$PROJECT_DIR$</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
@@ -38,9 +38,11 @@
           <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
         </element>
       </element>
-      <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/target/Spring4Hiberante4Integration/META-INF/MANIFEST.MF" />
-      </element>
+      <element id="directory" name="META-INF" />
+      <element id="javaee-facet-resources" facet="OverLord/web/Web" />
+      <element id="javaee-facet-resources" facet="OverLord/web/Web" />
+      <element id="javaee-facet-resources" facet="OverLord/web/Web" />
+      <element id="javaee-facet-resources" facet="OverLord/web/Web" />
       <element id="javaee-facet-resources" facet="OverLord/web/Web" />
     </root>
   </artifact>
